@@ -6,11 +6,13 @@
 
 : CharRNN, CharLSTM 둘 다 Epoch의 증가에 따라 Train Loss와 Validation Loss가 곡선을 그리며 감소하는 경향을 보임. 모델이 안정적으로 학습된 것을 확인할 수 있음
 
-+ ### VanilaRNN 
++ ### CharRNN 
     <img src="img\rnn.png"> 
-+ ### LSTM 
++ ### CharLSTM 
     <img src="img\lstm.png">
-: CharRNN, CharLSTM 의 validation loss 값 (Epoch = 30 기준) 
+
+
++ **CharRNN, CharLSTM 의 validation loss 값 (Epoch = 30 기준)** 
 
 |               |CharRNN|CharLSTM|
 |---------------|------|-----|
@@ -36,7 +38,7 @@
 |   |K|krication? 'pley took my sathims ouch vined.' Nort, But,, her wife! One aisoncuse. What he city? a sw |k with it: on 't is your--  MARCIUS: How dost spirites, yet thou with Yout soothe, I cannot purpose.|
 |   |P|proud upons Foll to'e unvouts, is And long well with thy gals. Uponance you says moscies conuot! Dy g |pon our grace that's privy seates And act not a pitious, anodgm on--Phokf Place; Manished'd me but te|
 
-**: Temperature의 변화에 따라 생성된 Text 를 살펴보면,**
++ **Temperature의 변화에 따라 생성된 Text 를 살펴보면,**
 
 **Temperature = 0.5일 때,**  비교적 자연스러운 단어와 문장구조로 문장이 생성됨
 
